@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #023047;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    height: 100vh;
+}
+.bar{
+    width: 70vh;
+    height: 4vh;
+    border: none;
+}
+.navbar{
+    border: 2px solid rgb(254, 254, 254);
+    border-radius: 5px solid white;
+}
